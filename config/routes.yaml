@@ -1,0 +1,8 @@
+controllers:
+    resource: ../src/Controller/
+    type: attribute
+
+#Можно указывать путь для подстраниц
+app_lucky_number:
+    path: /lucky/number
+    controller: App\Controller\LuckyController::number
